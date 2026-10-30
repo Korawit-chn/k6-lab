@@ -1,7 +1,7 @@
 # K6 lab results
 ## Part 0
 - Step 0.1, http_req_duration: avg=255.66ms min=255.66ms med=255.66ms max=255.66ms p(90)=255.66ms p(95)=255.66ms
-- Step 0.2, requests, rate and p(95), and why the rate stays below 5:
+- Step 0.2, requests, rate and p(95), and why the rate stays below 5: 80, 3.81876/s, p(95)=273.88ms. Because 1 iteration took around 1.3 second which mean the request rate per iteration is 1/1.3 which is only around 0.77.
 - Step 0.6, exit code of the normal run and of the run with P95=300:
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change:
 - Step 0.8, what was wrong, and how the checks showed it:
