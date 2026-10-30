@@ -4,7 +4,7 @@
 - Step 0.2, requests, rate and p(95), and why the rate stays below 5: 80, 3.81876/s, p(95)=273.88ms. Because 1 iteration took around 1.3 second which mean the request rate per iteration is 1/1.3 which is only around 0.77.
 - Step 0.6, exit code of the normal run and of the run with P95=300: 99
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change:✓ 'p(95)<1000', ✓ 'p(99)<1500', EXIT CODE: 0
-- Step 0.8, what was wrong, and how the checks showed it:
+- Step 0.8, what was wrong, and how the checks showed it: The letter sensitivity, in order first letter is the capital later but the code isn't, so the program not work correctly
 ## Part A results
 | Step | Test type | Users | Req/s | p(95) | Max | Failed | Checks |
 | ---- | ------------ | ----- | ----- | ----- | --- | ------ | ------ |
