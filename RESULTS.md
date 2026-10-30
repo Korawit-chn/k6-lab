@@ -9,7 +9,7 @@
 | Step | Test type | Users | Req/s | p(95) | Max | Failed | Checks |
 | ---- | ------------ | ----- | ----- | ----- | --- | ------ | ------ |
 | A1 | Smoke | 1 | 0.487805/s | 342.07ms | 347.11ms | 0.00% | 100.00% |
-| A2 | Average load | 3 | | | | | |
+| A2 | Average load | 3 | 1.277338/s | 371.78ms | max=399.41ms  | 0.00% | 100.00% |
 | A3 | Stress | 5 | | | | | |
 | A4 | Spike | 5 | | | | | |
 | A5 | Soak | 2 | | | | | |
